@@ -14,6 +14,8 @@ import json
 from datetime import datetime
 from collections import deque
 from enum import Enum
+from user_dashboard import UserDashboard, ProjectStatus
+from ai_assistant_onboarding import AIAssistant
 
 try:
     import tkinter as tk
